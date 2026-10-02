@@ -1,13 +1,18 @@
-# // A.R.I.A.
+# // A.R.I.A. 1.5.5
 
-Bilingual product website: Russian (`index.html`) and English (`en.html`). Includes a language switcher, interactive workflow diagrams, FAQs and getting started guides.
+Bilingual product website for developers and people learning to code. Russian: `index.html`; English: `en.html`.
 
-Static HTML, CSS and JavaScript. No build step or external libraries required.
+- Project context, task contracts, test evidence and team workflow.
+- Interactive workflow, CSV export example, quick/standard/deep modes.
+- Codex and Claude Code integration details.
+- Source, documentation, release and package download links.
 
-## GitHub Pages
+Static HTML, CSS and JavaScript. No build step or external libraries.
 
-Repository name: `aria_dev`. Publish from the root of the `main` branch. The `.nojekyll` file keeps the site assets and downloadable Markdown guides unchanged.
+Website: https://s41-i42-5va5.github.io/aria_dev/
 
-## Contents
+Framework source: https://github.com/s41-i42-5va5/ARIA
 
-This repository contains the bilingual website for // A.R.I.A. 1.5.5, not the framework distribution.
+Downloads: https://github.com/s41-i42-5va5/ARIA/releases/tag/v1.5.5
+
+GitHub Pages publishes the root of main. The .nojekyll file preserves static assets and Markdown guides. Examples illustrate the workflow; they are not records of actual project execution.

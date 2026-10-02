@@ -2,7 +2,7 @@
 
 // A.R.I.A. is a local framework for managing and verifying digital product development with AI tools. It connects the task, repository context, requirements, execution, checks and acceptance of the result.
 
-This guide does not include the // A.R.I.A. distribution. Use the complete package supplied by the project owner.
+Download the appropriate package from the [1.5.5 release page](https://github.com/s41-i42-5va5/ARIA/releases/tag/v1.5.5) and extract it into a separate folder. Checksums are available on the same page. [Source and documentation](https://github.com/s41-i42-5va5/ARIA) are open for inspection.
 
 ## Codex
 

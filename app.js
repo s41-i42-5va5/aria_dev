@@ -33,6 +33,9 @@ function setTool(button) {
   document.querySelectorAll('[data-tool]').forEach(tab => { const active = tab === button; tab.setAttribute('aria-selected', String(active)); tab.tabIndex = active ? 0 : -1; });
   document.getElementById('setup-panel').setAttribute('aria-labelledby', button.id);
   for (const [id, value] of Object.entries({ 'setup-label': data.label, 'setup-description': data.description, 'diagnostic-command': data.command, 'diagnostic-description': data.diagnostic, 'setup-requirement': data.requirement })) document.getElementById(id).textContent = value;
+  const download = document.getElementById('package-download');
+  download.href = `https://github.com/s41-i42-5va5/ARIA/releases/download/v1.5.5/ARIA-1.5.5-${button.dataset.tool}-windows-x64.zip`;
+  download.textContent = `${isEnglish ? 'Download for' : 'Скачать для'} ${button.dataset.tool === 'codex' ? 'Codex' : 'Claude Code'} ↓`;
 }
 function bindTabs(selector, update, vertical) {
   const buttons = [...document.querySelectorAll(selector)];
@@ -50,6 +53,7 @@ function bindTabs(selector, update, vertical) {
 }
 bindTabs('.step', setStep, true);
 bindTabs('[data-tool]', setTool, false);
+setTool(document.getElementById('tool-codex'));
 const menuButton = document.querySelector('.menu-toggle');
 const menu = document.getElementById('navigation');
 const menuLabels = isEnglish ? { open: 'Open menu', close: 'Close menu' } : { open: 'Открыть меню', close: 'Закрыть меню' };
