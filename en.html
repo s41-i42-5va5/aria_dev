@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#20251f">
+  <meta name="description" content="// A.R.I.A. — manage development with AI. Project context, requirements, checks and a history of accepted changes in one workflow. For Codex and Claude Code.">
+  <title>// A.R.I.A. — from task to verified outcome</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="alternate" hreflang="ru" href="index.html">
+  <link rel="alternate" hreflang="en" href="en.html">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="header">
+    <a href="#" class="brand" aria-label="// A.R.I.A. — home">// A.R.I.A.</a>
+    <nav id="navigation" aria-label="Main navigation">
+      <a href="#approach">Approach</a>
+      <a href="#workflow">How it works</a>
+      <a href="#team">For teams</a>
+      <a href="#start" class="nav-cta">Explore // A.R.I.A. <span aria-hidden="true">↗</span></a>
+    </nav>
+    <div class="header-actions">
+      <div class="language-switch" aria-label="Select language">
+        <a href="index.html" lang="ru" hreflang="ru" aria-label="Русский">RU</a>
+        <a href="en.html" lang="en" hreflang="en" aria-label="English" aria-current="page">EN</a>
+      </div>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="signal" aria-hidden="true"></span> MANAGE DEVELOPMENT WITH AI</p>
+        <h1>AI writes code.<br><span class="hero-command">// A.R.I.A.</span> manages<br><span class="serif">the outcome.</span></h1>
+        <p class="hero-description">Connect the task, project context and checks in one workflow. Keep a record of decisions and accept changes based on evidence.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#start">Explore // A.R.I.A. <span aria-hidden="true">↗</span></a><a class="text-link" href="#workflow">See the workflow <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-meta"><span>For Codex and Claude Code</span><span class="meta-divider" aria-hidden="true"></span><span>Local framework</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Diagram connecting the task, checks and outcome">
+        <div class="visual-grid" aria-hidden="true"></div>
+        <div class="visual-topline"><span>// A.R.I.A. / WORKFLOW</span><span class="visual-version">v1.5.5</span></div>
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="node node-task"><span class="node-icon" aria-hidden="true">↗</span><div><small>01 / DEFINITION</small><strong>Task and requirements</strong></div></div>
+        <div class="node node-context"><span class="node-icon" aria-hidden="true">⌘</span><div><small>02 / CONTEXT</small><strong>Code and project decisions</strong></div></div>
+        <div class="core"><span class="core-plus" aria-hidden="true">✳</span><span class="core-name">// A.R.I.A.</span><small>CONNECTS THE WORKFLOW</small></div>
+        <div class="node node-evidence"><span class="node-icon" aria-hidden="true">✓</span><div><small>03 / VERIFICATION</small><strong>Tests and evidence</strong></div></div>
+        <div class="result-node"><span class="result-check" aria-hidden="true">✓</span><div><small>04 / ACCEPTANCE</small><strong>Verified outcome</strong></div><span class="result-arrow" aria-hidden="true">↗</span></div>
+        <div class="visual-bottomline"><span class="signal" aria-hidden="true"></span> Workflow diagram <span class="visual-coordinate" aria-hidden="true">A—01</span></div>
+      </div>
+    </section>
+    <div class="principles-strip" aria-label="// A.R.I.A. principles"><span>PROJECT CONTEXT</span><span aria-hidden="true">✳</span><span>VERIFIABLE CHANGES</span><span aria-hidden="true">✳</span><span>DECISION HISTORY</span><span aria-hidden="true">✳</span><span>ACCEPTANCE CONTROL</span></div>
+
+    <section id="approach" class="section-shell approach section-pad">
+      <div class="section-heading"><p class="eyebrow">01 / THE APPROACH</p><h2>More code.<br><span class="serif">What is truly done?</span></h2></div>
+      <div class="approach-body"><p class="section-intro">When working with AI, it is easy to lose the connection between the original task, the changes and what has actually been verified. // A.R.I.A. makes that connection part of the workflow.</p>
+        <div class="approach-row"><span class="row-number">01</span><div><h3>Define the task before making changes</h3><p>Requirements, acceptance criteria and a plan are recorded in a contract. The outcome gets a definition you can verify.</p></div><span class="row-symbol" aria-hidden="true">↗</span></div>
+        <div class="approach-row"><span class="row-number">02</span><div><h3>Context across sessions</h3><p>The state, history and system map are kept in project documents. The next task builds on recorded decisions.</p></div><span class="row-symbol" aria-hidden="true">↗</span></div>
+        <div class="approach-row"><span class="row-number">03</span><div><h3>Evidence before completion</h3><p>Checks are linked to requirements and the code version. If a required test fails or the code changes after verification, completion is blocked.</p></div><span class="row-symbol" aria-hidden="true">↗</span></div>
+      </div>
+    </section>
+
+    <section id="workflow" class="workflow section-pad">
+      <div class="section-shell">
+        <div class="workflow-heading"><div><p class="eyebrow">02 / THE WORKFLOW</p><h2>From intent<br><span class="serif">to an accepted change.</span></h2></div><p>Every stage produces a result<br>you can verify.</p></div>
+        <div class="workflow-layout">
+          <div class="workflow-steps" role="tablist" aria-label="// A.R.I.A. workflow stages" aria-orientation="vertical">
+            <button id="step-contract" class="step active" role="tab" aria-selected="true" aria-controls="workflow-panel" data-step="contract"><span class="step-number">01</span><span><strong>Define the task</strong><small>Requirements and acceptance criteria</small></span><span class="step-arrow" aria-hidden="true">↗</span></button>
+            <button id="step-context" class="step" role="tab" aria-selected="false" aria-controls="workflow-panel" tabindex="-1" data-step="context"><span class="step-number">02</span><span><strong>Build the context</strong><small>Code, dependencies and risks</small></span><span class="step-arrow" aria-hidden="true">↗</span></button>
+            <button id="step-verify" class="step" role="tab" aria-selected="false" aria-controls="workflow-panel" tabindex="-1" data-step="verify"><span class="step-number">03</span><span><strong>Execute and verify</strong><small>Changes, tests and review</small></span><span class="step-arrow" aria-hidden="true">↗</span></button>
+            <button id="step-accept" class="step" role="tab" aria-selected="false" aria-controls="workflow-panel" tabindex="-1" data-step="accept"><span class="step-number">04</span><span><strong>Accept the result</strong><small>Evidence and history</small></span><span class="step-arrow" aria-hidden="true">↗</span></button>
+          </div>
+          <div id="workflow-panel" class="workflow-panel" role="tabpanel" tabindex="0" aria-labelledby="step-contract">
+            <div class="panel-topline"><span id="artifact-name">FEATURE CONTRACT</span><span class="panel-example">EXAMPLE STRUCTURE</span></div>
+            <div class="panel-main"><span class="artifact-icon" aria-hidden="true">↗</span><p id="artifact-kicker" class="panel-kicker">FIRST, DEFINE THE OUTCOME</p><h3 id="artifact-title">What should<br>we achieve?</h3><p id="artifact-description">Define the expected outcome, requirements and conditions that must be met before the task can be accepted.</p></div>
+            <div id="artifact-items" class="artifact-items"><div><span class="item-dot" aria-hidden="true"></span><span>Measurable outcome</span><small>OUTCOME</small></div><div><span class="item-dot" aria-hidden="true"></span><span>Material requirements</span><small>REQUIREMENTS</small></div><div><span class="item-dot" aria-hidden="true"></span><span>Acceptance criteria</span><small>ACCEPTANCE</small></div></div>
+            <div class="panel-footer"><span id="artifact-footer">The contract is fixed before code changes begin</span><span aria-hidden="true">↗</span></div>
+          </div>
+        </div>
+        <p class="workflow-note">The diagram shows the full standard/deep cycle. The level of control depends on the task: quick for local edits, standard for related changes, and deep for higher-risk work.</p>
+      </div>
+    </section>
+
+    <section id="team" class="section-shell team section-pad">
+      <div class="team-header"><p class="eyebrow">03 / TEAM WORKFLOW</p><h2>One project.<br><span class="serif">Shared rules.</span></h2><p>// A.R.I.A. Control connects tasks, participants and changes in one GitHub repository.</p></div>
+      <div class="team-layout"><div class="team-diagram"><div class="repo-label"><span aria-hidden="true">⌑</span> GITHUB / ONE REPOSITORY</div><div class="branch-line"><span class="branch-point" aria-hidden="true"></span><code>main</code><small>Stable version</small></div><div class="branch-line"><span class="branch-point" aria-hidden="true"></span><code>dev</code><small>Accepted changes</small></div><div class="branch-line"><span class="branch-point" aria-hidden="true"></span><code>work/&lt;username&gt;</code><small>Participant workspace</small></div><div class="branch-line branch-control"><span class="branch-point" aria-hidden="true"></span><code>aria-control</code><small>Tasks · state · history</small></div><div class="coordinator"><span class="signal" aria-hidden="true"></span><span><strong>Local Coordinator</strong><small>Manages control state on the owner's PC</small></span></div></div>
+        <div class="team-features"><article><span class="feature-index">01</span><h3>Clear ownership</h3><p>Roles, assignments and task dependencies. Each participant works in their own branch and within the permitted file scope.</p></article><article><span class="feature-index">02</span><h3>Overlapping work under control</h3><p>// A.R.I.A. checks active work scopes and blocks tasks with conflicting file scopes from starting.</p></article><article><span class="feature-index">03</span><h3>Acceptance connected to GitHub</h3><p>In the team workflow, a task is completed after a confirmed merge into dev and successful required checks.</p></article></div></div>
+    </section>
+
+    <section class="fit section-shell"><p class="eyebrow">WHEN // A.R.I.A. HELPS</p><div class="fit-grid"><article><span class="fit-icon" aria-hidden="true">↗</span><h3>Building a product with AI</h3><p>You need to preserve requirements and context across tasks and sessions.</p></article><article><span class="fit-icon" aria-hidden="true">⌘</span><h3>Working as a team</h3><p>You need a shared backlog, assignments and rules for accepting changes.</p></article><article><span class="fit-icon" aria-hidden="true">✓</span><h3>Verifying the outcome</h3><p>You need to know what has been checked, on which code version, and what remains unproven.</p></article></div></section>
+
+    <section id="start" class="start section-pad"><div class="section-shell start-layout"><div class="start-copy"><p class="eyebrow">04 / GET STARTED</p><h2>Start<br><span class="serif">with one project.</span></h2><p>Explore the workflow and verify the package in your own environment.</p><p class="release-caption">Windows 10/11 x64. // A.R.I.A. includes its own Python and Git. Install and authenticate your AI tool separately.</p></div>
+        <div class="setup-card"><div class="tool-tabs" role="tablist" aria-label="Choose your tool"><button id="tool-codex" role="tab" aria-selected="true" aria-controls="setup-panel" data-tool="codex">Codex</button><button id="tool-claude" role="tab" aria-selected="false" aria-controls="setup-panel" tabindex="-1" data-tool="claude">Claude Code</button></div><div id="setup-panel" role="tabpanel" aria-labelledby="tool-codex" tabindex="0"><p class="setup-label" id="setup-label">CODEX PACKAGE</p><h3 id="setup-title">Verify → install → diagnose</h3><p id="setup-description">Open the // A.R.I.A. package for Codex and run these commands in order:</p><ol class="setup-commands"><li><span>01</span><code>CHECK_RELEASE.cmd</code><small>Verify package integrity</small></li><li><span>02</span><code>INSTALL.cmd</code><small>Install // A.R.I.A.</small></li><li><span>03</span><code id="diagnostic-command">RUN_ARIA.cmd doctor</code><small id="diagnostic-description">Check the environment</small></li></ol><p id="setup-requirement" class="setup-requirement">Live GitHub operations require an internet connection and configured access.</p><a class="button button-dark setup-download" href="getting-started-en.md" download>Download the getting started guide <span aria-hidden="true">↓</span></a><p class="setup-footnote">This guide contains instructions. It does not include the // A.R.I.A. distribution.</p></div></div>
+      </div></section>
+
+    <section class="section-shell faq section-pad"><div><p class="eyebrow">QUESTIONS AND ANSWERS</p><h2>Before<br><span class="serif">you begin.</span></h2></div><div class="faq-list"><details><summary>What is // A.R.I.A.?<span aria-hidden="true">+</span></summary><p>// A.R.I.A. is a local framework for managing and verifying digital product development with AI tools. It connects tasks, repository context, requirements, execution, review and evidence of the result.</p></details><details><summary>How does // A.R.I.A. work with Codex and Claude Code?<span aria-hidden="true">+</span></summary><p>Codex and Claude Code have separate packages and integration skills. The Claude Code package also installs a protective PreToolUse hook. Codex or Claude Code must be installed and authenticated separately.</p></details><details><summary>Where are the code and project state stored?<span aria-hidden="true">+</span></summary><p>The framework, product source code, // A.R.I.A. documents and local execution data have separate boundaries. The team workflow uses GitHub. AI data processing depends on the AI tool you use and its settings.</p></details><details><summary>Do I need an always-on server?<span aria-hidden="true">+</span></summary><p>Local work does not require a central server. In the team workflow, the Coordinator runs on the owner's PC. While it is offline, confirmed GitHub events wait for synchronization; processing resumes when the Coordinator starts.</p></details><details><summary>Does // A.R.I.A. guarantee error-free results?<span aria-hidden="true">+</span></summary><p>// A.R.I.A. verifies that defined conditions are met and preserves the evidence. The quality of the outcome depends on requirements, check coverage and the real environment. Framework verification does not replace acceptance testing of the product, external APIs or devices.</p></details></div></section>
+    <section class="closing section-shell"><div><p class="eyebrow">DEVELOPMENT YOU CAN VERIFY</p><h2>Task. Context.<br><span class="serif">Verified outcome.</span></h2></div><a class="button button-lime" href="#start">Explore // A.R.I.A. <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="footer section-shell"><a class="brand" href="#">// A.R.I.A.</a><p>Manage development with AI</p><a href="getting-started-en.md" download>Getting started guide ↗</a><span>v1.5.5</span></footer>
+</body>
+</html>
