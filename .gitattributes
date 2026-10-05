@@ -1,0 +1,6 @@
+/index.html -text
+/en.html -text
+/scripts/*.js -text
+/data/*.js -text
+/styles/*.css -text
+/assets/fonts/* -text
